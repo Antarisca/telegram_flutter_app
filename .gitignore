@@ -1,0 +1,84 @@
+# misc
+.DS_Store
+.env
+.idea
+.vscode/
+
+# build artifacts
+*.apk
+*.ap_
+*.aab
+*.app
+*.ipa
+*.xctest
+*.xcworkspace
+*.xcodeproj
+*.xcarchive
+*.pkg
+*.dmg
+*.msi
+*.exe
+*.dll
+*.so
+*.dylib
+*.exp
+*.lib
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.dart_tool/
+.ios/
+.android/
+.macos/
+.linux/
+.windows/
+.web/
+
+# Flutter/Dart
+/android/app/src/main/kotlin/com/example/flutter_app_name/
+/ios/Flutter/Generated.xcconfig
+/ios/Pods/
+/ios/.symlinks/
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Runner/*.xcworkspace
+/ios/Runner/Generated.xcconfig
+/ios/Runner/Pods/
+/ios/Runner/Runner.xcworkspace
+/ios/Runner/Flutter/
+/ios/Runner.xcodeproj/project.xcworkspace
+/ios/Runner.xcodeproj/xcuserdata/
+/ios/Runner.xcodeproj/project.pbxproj
+/ios/Runner.xcodeproj/xcshareddata/
+/ios/Runner.xcworkspace/
+/ios/Runner.xcworkspace/xcuserdata/
+/ios/Runner.xcworkspace/xcshareddata/
+/ios/Runner.xcworkspace/contents.xcworkspacedata
+/windows/flutter/ephemeral/
+/windows/flutter/generated_plugin_registrant.cc
+/windows/flutter/generated_plugin_registrant.h
+/windows/flutter/generated_plugins.cmake
+/windows/flutter/CMakeLists.txt
+/windows/flutter/flutter_wrapper_app.vcxproj
+/windows/flutter/flutter_wrapper_app.vcxproj.filters
+/windows/flutter/flutter_wrapper_app.vcxproj.user
+/windows/flutter/flutter_wrapper_plugin.vcxproj
+/windows/flutter/flutter_wrapper_plugin.vcxproj.filters
+/windows/flutter/flutter_wrapper_plugin.vcxproj.user
+
+# VS Code files
+.vscode/
+.history/
+
+# Dependency caches
+.pub-cache/
+
+# test
+test/coverage/
+
+# generated files
+*.g.dart
+*.freezed.dart
+*.gr.dart

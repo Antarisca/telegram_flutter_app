@@ -1,0 +1,39 @@
+# --- File: pubspec.yaml ---
+# Lokasi: TELEGRAM1/pubspec.yaml
+
+name: TELEGRAM1 # Pastikan nama ini sesuai dengan nama folder proyek Anda
+description: A Telegram-like login and chat application built with Flutter.
+
+# Versi aplikasi Anda.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Batasan versi SDK Dart yang kompatibel
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Dependensi untuk permintaan HTTP (komunikasi dengan backend PHP)
+  http: ^1.2.1 # Versi stabil terbaru
+  # Dependensi untuk memilih gambar dari galeri/kamera (digunakan di StatusUploadPage)
+  image_picker: ^1.1.2 
+  # Untuk ikon gaya iOS (biasanya disertakan secara default)
+  cupertino_icons: ^1.0.2 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Untuk analisis kode dan linting
+  flutter_lints: ^2.0.0 
+
+# Bagian ini memastikan font Material Icons disertakan dengan aplikasi Anda.
+flutter:
+  uses-material-design: true
+
+  # Untuk menambahkan aset lokal (gambar, font, dll.) ke aplikasi Anda,
+  # daftarkan path folder atau file-nya di sini.
+  # PASTIKAN FILE-FILE INI ADA DI LOKASI YANG DIDAFTARKAN!
+  assets:
+    - assets/images/profile.png # Contoh aset gambar lokal
+    - assets/images/telegram_pattern.jpg # Contoh aset gambar lokal
